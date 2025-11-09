@@ -74,20 +74,6 @@ void main() {
   //Block A: is correct because const should be known before the code run.
   //Block B: is wrong because const can't be calculated.
 
-  num value = 10;
-
-  if (value.runtimeType == int) {
-    print("It's an integer!");
-  } //printed
-
-  value = 10.5;
-
-  if (value.runtimeType == double) {
-    print("Now it's a double!");
-  } //printed
-
-  // What about this?
-  var anotherValue = 10 / 2;
-  print(anotherValue.runtimeType);
-  // int
+  List<String> lockers = ['notebook', 'snack', 'pencil case'];
+  print(lockers[2]);
 }

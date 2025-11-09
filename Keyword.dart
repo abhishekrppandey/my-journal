@@ -19,11 +19,9 @@ Seconds in an Hour: $secondsInHour
 ''';
   print(message);
 
-  const String secretKey = 'abc123xyz987';// secretKey
-  final String userEmail = 'user@example.com';// userEmail
-  bool isDataLoading = false;// isDataLoading
-  const int lightSpeed = 299792458; // lightSpeed
-  var userNiceName = 'TechUser'; // userNiceName
-
-
+  // const String secretKey = 'abc123xyz987';// secretKey
+  // final String userEmail = 'user@example.com';// userEmail
+  // bool isDataLoading = false;// isDataLoading
+  // const int lightSpeed = 299792458; // lightSpeed
+  // var userNiceName = 'TechUser'; // userNiceName
 }

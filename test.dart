@@ -1,16 +1,26 @@
+int multiplyInt (int a, int b){
+  return a * b;
+}
+
+int multiplyShort (int a, int b) => a * b;
+
+int square(int x) => x * x;
+
+void welcomeUser ([String name = 'Guest']){
+  print('Welcome $name');
+}
+
+void showProfile({required String name, int age = 18}){
+  print('User $name is $age years old');
+}
+
 void main() {
-  String command = 'savewe';
-  switch (command) {
-    case 'open':
-      print('Opening file...');
-      break;
-    case 'save':
-      print('Saving file...');
-      break;
-    default:
-      print('Unknown command.');
-  }
-  for (int i = 1; i <= -3; i++) {
-  print('Launching in $i...');
-  }
+  var multiplyTwoInts = multiplyInt;
+  print(multiplyTwoInts(12, 39));
+  print(multiplyShort(12, 10));
+  welcomeUser();
+  welcomeUser('Abhi');
+  showProfile(name: 'Abhi');
+    showProfile(name: 'Abhi', age: 25);
+
 }

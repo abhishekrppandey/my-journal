@@ -1,4 +1,5 @@
 void main() {
+  /*
   String password = "dart123";
   String userInput = "dart123";
   if (password != userInput) {
@@ -7,4 +8,5 @@ void main() {
   } else {
     print('Login successful!');
   }
+  */
 }
